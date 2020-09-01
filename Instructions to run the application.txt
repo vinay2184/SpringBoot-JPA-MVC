@@ -1,0 +1,25 @@
+Pre-requisites
+=======================================================
+1)Install Tomcat in your local
+2)Install Mysql server and Mysql Workbench in your local
+3)Install Eclipse in your local
+
+How to Run
+==========================================
+1)Go to https://github.com/vinay2184/SpringBoot-JPA-MVC
+2)Download code in Zip format
+3)Unzip the code
+4)Open Eclipse and Import the project as "Existing Maven Project"
+5)Right click on Project, go to "Build Path->Configure Build Path" and under Libraries make sure your JRE points to JDK.
+6)Run the project as Maven Clean
+7)Run the project as Maven Install
+8)Now you will see that WAR file is generated with name "RedRiver-Students-Demo"
+9)Copy the WAR file from the generated "target" location and paste it in your Tomcat installation "webapps" folder
+10)Now start the Tomcat server under "bin" location using the command "catalina.bat run"
+11)Once the server starts successfully, you will see in your Mysql, that database name with "students_schema" is created.
+12)Open any browser and hit this url "http://localhost:8080/RedRiver-Students-Demo/home" , app is up and running.
+13)Now run this url to create table and insert data automatically http://localhost:8080/RedRiver-Students-Demo/createData
+When it runs successfully, user is brought back to home page and is all set to access the appliaction.
+14) Click on "Students" menu on the left to access students info. 
+
+Thank You.
